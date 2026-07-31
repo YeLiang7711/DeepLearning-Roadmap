@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "622387266445050a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9849212bfec25828",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad0dc051fdf81240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-数学基础/1.3-概率统计/0-概述.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0-概述"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49ccc6a436800a26",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d96e74b90e0da2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e949620a0a04bacc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "03caebe481f7f6a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "26a89f45869e005d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f40ec058b9904a28",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fcb8fe678da407a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a834ecfa330cea96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "深度学习完整学习路线.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "深度学习完整学习路线 的反向链接列表"
+            }
+          },
+          {
+            "id": "552de850dbb52541",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "深度学习完整学习路线.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "深度学习完整学习路线 的出链列表"
+            }
+          },
+          {
+            "id": "c2dab47f3d3c2e94",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "927a0af612e04c9e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "0101e742ca87b7a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "深度学习完整学习路线.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "深度学习完整学习路线 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "ad0dc051fdf81240",
+  "lastOpenFiles": [
+    "00-概览/INDEX.md.tmp.17820.6c669dd00568",
+    "01-数学基础/1.3-概率统计/1.3.8 偏差—方差权衡.md",
+    "01-数学基础/1.3-概率统计/1.3.8 偏差—方差权衡.md.tmp.17820.eb4968cfb8dd",
+    "01-数学基础/1.3-概率统计/1.3.7 Mahalanobis距离与协方差收缩.md",
+    "01-数学基础/1.3-概率统计/1.3.7 Mahalanobis距离与协方差收缩.md.tmp.17820.f3fe53aa450d",
+    "01-数学基础/1.3-概率统计/1.3.6 稳健统计.md",
+    "01-数学基础/1.3-概率统计/1.3.6 稳健统计.md.tmp.17820.17149880ea15",
+    "01-数学基础/1.3-概率统计/1.3.5 置信区间、分位数、假设检验.md",
+    "01-数学基础/1.3-概率统计/1.3.5 置信区间、分位数、假设检验.md.tmp.17820.d49f1cbb8261",
+    "01-数学基础/1.3-概率统计/1.3.4 最大似然估计与最大后验估计.md",
+    "01-数学基础/1.3-概率统计/1.3.4 最大似然估计与最大后验估计.md.tmp.17820.194b2289107f",
+    "01-数学基础/1.2-微积分/1.2.2 链式法则与反向传播.md",
+    "01-数学基础/1.3-概率统计/1.3.3 高斯分布与多元高斯分布.md",
+    "01-数学基础/1.3-概率统计/1.3.3 高斯分布与多元高斯分布.md.tmp.17820.d9d0f5d2c50b",
+    "01-数学基础/1.2-微积分/1.2.3 Jacobian、Hessian及其直觉.md",
+    "01-数学基础/1.2-微积分/1.2.4 常见函数的导数.md",
+    "01-数学基础/1.2-微积分/1.2.1 导数、偏导数、方向导数与梯度.md",
+    "01-数学基础/1.2-微积分/0-概述.md",
+    "00-概览/INDEX.md",
+    "01-数学基础/1.3-概率统计/1.3.2 条件概率与贝叶斯公式.md",
+    "01-数学基础/1.3-概率统计/1.3.2 条件概率与贝叶斯公式.md.tmp.17820.068bfad8c4de",
+    "01-数学基础/1.3-概率统计/1.3.1 随机变量、期望、方差、协方差.md",
+    "01-数学基础/1.3-概率统计/0-概述.md",
+    "01-数学基础/1.3-概率统计/0-概述.md.tmp.17820.66ea13ce0a1e",
+    "01-数学基础/1.3-概率统计",
+    "01-数学基础/1.2-微积分/0-概述.md.tmp.17820.51d91d1800f9",
+    "01-数学基础/微积分/1.2.1 导数、偏导数、方向导数与梯度.md",
+    "01-数学基础/1.1-线性代数/1.1.5 正定矩阵、协方差矩阵、求逆与伪逆.md",
+    "01-数学基础/1.1-线性代数/1.1.6 PCA及低秩近似.md",
+    "01-数学基础/1.1-线性代数/1.1.4 特征值、特征向量、SVD.md",
+    "01-数学基础/1.1-线性代数/1.1.3 线性相关、秩、基与子空间.md",
+    "01-数学基础/1.1-线性代数/1.1.2 内积、范数、距离与相似度.md",
+    "01-数学基础/1.1-线性代数/1.1.1 向量、矩阵、张量与常用运算.md",
+    "01-数学基础/1.1-线性代数/0-概述.md",
+    "01-数学基础/微积分/1.2.4 常见函数的导数.md",
+    "01-数学基础/微积分/1.2.2 链式法则与反向传播.md"
+  ]
+}
