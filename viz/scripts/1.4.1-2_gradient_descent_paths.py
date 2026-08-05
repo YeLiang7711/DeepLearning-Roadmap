@@ -1,6 +1,6 @@
 """
-图 1.4.1-1：梯度下降路径 — 三种学习率对比
-输出：viz/images/1.4.1-1_gradient_descent_paths.png
+图 1.4.1-2：梯度下降路径 — 三种学习率对比
+输出：viz/images/1.4.1-2_gradient_descent_paths.png
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,8 +40,7 @@ x = np.linspace(-0.5, 2.0, 200)
 y = np.linspace(-0.5, 2.0, 200)
 X, Y = np.meshgrid(x, y)
 Z = rosenbrock_2d(X, Y)
-cf = ax.contourf(X, Y, Z, levels=16, cmap='YlOrBr', alpha=0.85)
-ax.contour(X, Y, Z, levels=10, colors='#8a5a2b', linewidths=0.5, alpha=0.4)
+cf = ax.contourf(X, Y, Z, levels=16, cmap='GnBu', alpha=0.9)
 
 start = (0.0, 0.0)
 
@@ -56,9 +55,9 @@ ax.plot(path_ok[:, 0], path_ok[:, 1], 'o-', color='#2563eb',
         markersize=4, linewidth=2.2, label='η 合适（0.18）：平滑收敛')
 
 # η 过大：震荡
-path_big = run_gd(*start, lr=0.75, steps=40)
+path_big = run_gd(*start, lr=0.48, steps=40)
 ax.plot(path_big[:, 0], path_big[:, 1], 'o-', color='#dc2626',
-        markersize=3.5, linewidth=1.8, alpha=0.9, label='η 过大（0.75）：来回震荡')
+        markersize=3.5, linewidth=1.8, alpha=0.9, label='η 过大（0.48）：来回震荡')
 
 # 最低点
 ax.plot(1, 1, '*', color='#111827', markersize=16, zorder=5)
@@ -76,7 +75,7 @@ ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 
 plt.tight_layout()
-out = 'D:/LearnSpace/viz/images/1.4.1-1_gradient_descent_paths.png'
+out = 'D:/LearnSpace/viz/images/1.4.1-2_gradient_descent_paths.png'
 plt.savefig(out, dpi=160, bbox_inches='tight', facecolor='white')
 plt.close()
 print(f'saved: {out}')

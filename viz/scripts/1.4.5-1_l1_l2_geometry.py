@@ -17,12 +17,15 @@ theta = np.linspace(0, 2 * np.pi, 400)
 fig, axes = plt.subplots(1, 2, figsize=(12, 5.8))
 
 # 无约束最优解位置（对角线方向，w1 和 w2 都不为 0）
-w_star = np.array([1.9, 1.5])
+w_star = np.array([2.2, 0.9])
 
 for ax, (norm_name, boundary) in zip(axes, [
     ('L2 约束（圆形）', np.stack([np.cos(theta), np.sin(theta)])),
-    ('L1 约束（菱形）', np.stack([np.sign(np.cos(theta)) * np.abs(np.cos(theta)),
-                                  np.sign(np.sin(theta)) * np.abs(np.sin(theta))])),
+    # L1 菱形：|w1| + |w2| = 1 的参数化（用 L1 范数归一化单位圆）
+    ('L1 约束（菱形）', np.stack([
+        np.cos(theta) / (np.abs(np.cos(theta)) + np.abs(np.sin(theta))),
+        np.sin(theta) / (np.abs(np.cos(theta)) + np.abs(np.sin(theta))),
+    ])),
 ]):
     # 约束区域
     ax.fill(boundary[0], boundary[1], color='#3b82f6', alpha=0.15)
